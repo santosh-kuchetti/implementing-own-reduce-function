@@ -5,7 +5,7 @@
         return acc;
     }, 0)
 
-    console.log(sum);
+    console.log(sum);  // this gives answer as 6.
 */
 /*
     we can see two challenges here,
@@ -27,3 +27,5 @@ const sumReducer = function (accumulator, initialValue) {  // this is the reduce
 }
  
 console.log(arr.myreduce(sumReducer, 0, arr));  // calling 'myreduce' function and passing the arguments such as function sumReducer will be reducer, 0 will be initialValue, our arr will be arr
+
+// this gives answer as 6.
