@@ -22,8 +22,8 @@ Array.prototype.myreduce = function (reducer, initialValue, arr) {   // 'myreduc
     }
     return acc;   // finally returning the accumulator
 }
-const sumReducer = function (accumulator, initialValue) {  // this is the reducer function that is performing operations
-    return accumulator + initialValue;    //  it returns the value
+const sumReducer = function (accumulator, currentValue) {  // this is the reducer function that is performing operations
+    return accumulator + currentValue;    //  it returns the value
 }
  
 console.log(arr.myreduce(sumReducer, 0, arr));  // calling 'myreduce' function and passing the arguments such as function sumReducer will be reducer, 0 will be initialValue, our arr will be arr
