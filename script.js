@@ -9,7 +9,7 @@
 */
 /*
     we can see two challenges here,
-    1.  a function that actually performs the reduce operation - 'reducer'. It need two parameters such as accumulator and initialValue.
+    1.  a callback function that actually performs the reduce operation - 'reducer'. It need two parameters such as accumulator and initialValue.
     2.  actual reduce function. It needs three parameters such as callback reducer function to perform the operation, initialValue, array.
 */
 
